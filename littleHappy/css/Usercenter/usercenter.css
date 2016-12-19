@@ -1,0 +1,94 @@
+body,html{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#left-tabs,#maincontent,#right-bat{
+	overflow: hidden;
+	float: left;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background:#494b57;
+	color: #fff;
+}
+#center-title{
+	width: 90%;
+	margin: 0 auto;
+}
+#center-title .title-left{
+	float: left;
+	padding: 20px 0;
+}
+#center-title .title-right{
+	float: right;
+	padding-top: 40px;
+}
+#center-title .title-right p{
+	font-size: 24px;
+	float: left;
+}
+#center-title .title-right span{
+	float: left;
+	font-size: 24px;
+}
+#center-title p{
+	margin: 0;
+}
+#center-title .title-left p:first-child{
+	font-size: 20px;
+}
+#left-tabs{
+	width:15%;
+	position: relative;
+}
+#left-tabs ul{
+    cursor: pointer;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style-type: none;
+	line-height: 40px;
+}
+#left-tabs ul li img{
+	vertical-align: middle;
+}
+#left-tabs ul li.active{
+	background:yellow
+}
+#left-tabs>#center-title{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width:100%;
+}
+#left-tabs>#center-ctrl{
+	position: absolute;
+	top: 20%;
+	width:100%;
+}
+#left-tabs>#center-msg{
+	position: absolute;
+	top: 40%;
+	width:100%;
+}
+#maincontent{
+	width: 70%;
+	background: gainsboro;
+	position: relative;
+}
+#maincontent>div{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	display:none;
+}
+
+#right-bat{
+	/*flex: 1;*/
+	width:15%;
+}

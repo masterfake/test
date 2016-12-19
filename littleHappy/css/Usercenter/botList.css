@@ -1,0 +1,90 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:#f2f3f5;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	
+}
+#page{
+	height:89%;
+	margin:20px;
+	
+	margin-top:20px;
+}
+ .api{
+	background: #263468;
+	display: block;
+	width: 159px;
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	line-height: 45px;
+	margin: 0 auto;
+	border-radius: 2px;
+}
+#page .main{
+	overflow: hidden;
+	height: 31%;
+	background:#fff;
+}
+#page .bot2{
+	margin: 20px 0;
+}
+#page h3{
+	position: relative;
+	margin: 0;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 1% 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 10px;
+	border-bottom: 1px solid #f0f0f0;
+}
+#page h3>#delet{
+	display: inline-block;
+	width:16px;
+	height: 19px;
+	position: absolute;
+	right: 10px;
+	background: url(../../img/botcenter/delet.png) no-repeat;
+}
+#page .bot-msg{
+	position: relative;
+}
+#page dl{
+	padding-left: 20px;
+	margin: 0;
+	font-size: 14px;
+}
+#page dl dd,dt{
+padding-top: 22px;
+	position: relative;
+	margin: 0;
+}
+#page #msg{
+	left: 150px;
+	top:20px;
+	position: absolute;
+	display: block;
+	width: 23px;
+	height: 23px;
+	background: url(../../img/botcenter/msg.png) no-repeat;
+}
+#page .bot-detil>a{
+	display: block;
+	background: #263468;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	width: 99px;
+	height: 43px;
+	border-radius: 2px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	line-height: 43px;
+	text-decoration: none;
+}

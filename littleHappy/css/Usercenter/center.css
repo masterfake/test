@@ -1,0 +1,103 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:#f2f3f5;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	min-width: 1000px;
+	min-height: 600px;
+}
+#page{
+	height: 100%;
+	width: 95%;
+	margin: 0 auto;
+	background:#f2f3f5;
+}
+#dateCtrl{
+	overflow: hidden;
+	padding-top: 20px;
+}
+#dateCtrl ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 34px;
+}
+#dateCtrl ul>li{
+	float: left;
+	margin-right: 44px;
+}
+#dateCtrl .ctrl-left select{
+	display: block;
+	width: 99px;
+	height: 34px;
+	border:1px solid #ccc;
+	outline: none;
+}
+#dateCtrl .ctrl-mid input{
+	display: inline-block;
+	border: none;
+	border:1px solid #ccc;
+	width: 103px;
+	height: 32px;
+	outline: none;
+}
+#dateCtrl .ctrl-mid input[type=date]::-webkit-inner-spin-button { 
+	visibility: hidden; 
+}
+#dateCtrl .ctrl-right a{
+	display: block;
+	width: 80px;
+	height: 34px;
+	background: #263468;
+	text-align: center;
+	color: #fff;
+    line-height:34px;
+    cursor:pointer;
+}
+/*报表*/
+#detils,#detil-next{
+	overflow: hidden;
+	display: block;
+	height: 43%;
+	background: #fff;
+	margin-top: 20px;
+}
+.d-main{
+	padding: 0 10px;
+	height: 100%;
+	overflow: hidden;
+}
+.d-main h3{
+	padding: 25px 0;
+	margin: 0;
+    color: #333;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.d-main h3>span{
+	margin-left: 17px;
+	color: #999;
+	font-size: 12px;
+}
+.d-main h3>em{
+	color:#fe4c22;
+	font-size: 12px;
+	font-style: normal;
+}
+.d-main #containerbox1,#containerbox3{
+	overflow: hidden;
+	height: 80%;
+	float: left;
+	width: 41%;
+	
+}
+.d-main #containerbox2,#containerbox4{
+	float:left;
+	width: 57%;
+	height: 80%;
+	overflow: hidden;
+}

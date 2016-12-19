@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+html,body,#page{
+	
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height:100%;
+	min-width: 800px;
+	min-height: 650px;
+    background: #fff;
+}
+header{
+	font-family: "微软雅黑";
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background:#273468;
+}
+header>.h-title{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header>.h-title .title-left{
+	color: #fff;
+	float: left;
+	padding: 9px 0;
+
+	
+}
+
+header>.h-title .title-left p:first-child{
+	font-size: 24px;
+}
+header>.h-title .title-left p:last-child{
+	font-size: 16px;
+}
+header>.h-title .title-right{
+	float: right;
+	color:#fff;
+	padding: 20px 0;
+		
+}
+header>.h-title .title-right span{
+	font-size: 18px;
+	display: inline-block;
+	line-height:30px;
+	text-align: center;
+	cursor: pointer;
+	width: 70px;
+}
+header>.h-title .title-right a{
+	color: #fff;
+}
+/*登录成功*/
+#formbox{
+	font-family: "微软雅黑";
+	width: 475px;
+	height:600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	margin-top: -300px;
+	background:url(../../img/index/login-back.png) no-repeat;
+	background-size: 450px 606px;
+	overflow: hidden;
+}
+.centent{
+	width:270px;
+	margin: 0 auto;
+}
+#formbox h2{
+	text-align: center;
+	color: #252525;
+	font-weight: normal;
+	font-size:18px;
+	margin: 0;
+	margin-top: 85px;
+	margin-bottom: 60px;
+}
+.centent p>img{
+	width: 40px;
+	margin-right: 13px;
+	vertical-align: middle;
+}
+.centent article{
+	line-height:2;
+	
+}
+.time{
+	color: #273468;
+}

@@ -1,0 +1,108 @@
+header>.h-title .title-right a:last-child span{
+	box-sizing: border-box;
+	background: #fff;
+	color: black;
+	border-radius: 2px;
+}
+#formbox{
+	font-family: "微软雅黑";
+	width: 475px;
+	height:600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	margin-top: -300px;
+	background:url(../../img/index/login-back.png) no-repeat;
+	background-size: 450px 606px;
+	overflow: hidden;
+}
+form{
+	width: 325px;
+	margin: 0 auto;
+}
+form h2{
+	text-align: center;
+	color: #252525;
+	font-weight: normal;
+	font-size:18px;
+	margin: 0;
+	margin-top: 85px;
+	margin-bottom: 60px;
+}
+form>label>span{
+	display: inline-block;
+	font-size: 16px;
+	color: #252525;
+	vertical-align: middle;
+}
+
+form>label{
+	
+	display: block;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-bottom: 18px;
+}
+form>label>input{
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	color: #999;
+	width:270px;
+	height: 42px;
+	font-size: 16px;
+	text-indent:8px;
+	padding: 0;
+	
+}
+form>label>input{
+	outline: none;
+}
+form input:focus{
+	border:none;
+	border-bottom: 2px solid #273468;
+	
+   
+}
+.islogin{
+	color: #fff;
+	margin: 0px auto;
+	display: block;
+	background:#273468;
+	width:188px;
+	height:36px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 4px;
+	
+}
+form .checkbox{
+	overflow: hidden;
+	width: 270px;
+	height: 30px;
+	margin-bottom: 30px;
+	margin-left: 53px;
+}
+.checkbox label{
+	float: left;
+	color: #999;
+}
+form .checkbox input{
+	margin-right:5px;
+    vertical-align: middle
+}
+.checkbox a{
+	color: #273468;
+	float: right;
+	
+}
+form .err-msg{
+	color: red;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+	
+}
+

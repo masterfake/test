@@ -1,0 +1,78 @@
+body,html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:#f2f3f5;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	
+}
+#page{
+	height:95%;
+	margin:20px;
+	background:#fff;
+	margin-top:20px;
+}
+#page .page-main{
+	
+	height:100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.page-main h3{
+	margin: 0;
+	font-size: 16px;
+	color: #222222;
+	padding:27px 0;
+}
+.page-main #banner{
+	width: 100%;
+	height:45%;
+	overflow: hidden;
+}
+.page-main #banner>img{
+	width: 100%;
+	height: 100%;
+}
+#page .productbot{
+	width: 385px;
+	height: 185px;
+	padding-top:5%;
+	
+	margin: 0 auto;
+}
+#page .productbot label{
+	
+	margin: 36px 0px;
+	font-size: 16px;
+	display: block;
+}
+#page .productbot label input{
+	background: url(../../img/botcenter/Labelinput.jpg) no-repeat 275px;
+	width: 290px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid #263468;
+	font-size: 16px;
+	outline: none;
+}
+#page .productbot label select{
+	color: #a9a9a9;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #263468;
+	width: 290px;
+	height: 30px;
+	font-size: 16px;
+}
+#page .productbot a{
+	border-radius: 2px;
+	margin: 0 auto;
+	width: 288px;
+	height: 36px;
+	display: block;
+	background: #263468;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+}
